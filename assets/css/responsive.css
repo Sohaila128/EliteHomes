@@ -66,7 +66,21 @@
     transform: translate(25px, 20px);
   }
 
-  .mega-menu-dropdown {
-    width: 1050px;
+  .mega-menu-wrapper .dropdown-menu {
+    max-height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  header#header .mega-menu-wrapper {
+    position: static;
+  }
+  
+  header#header .mega-menu-dropdown {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
   }
 }

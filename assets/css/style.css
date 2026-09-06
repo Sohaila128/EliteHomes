@@ -660,6 +660,10 @@ body {
     border-color 0.2s ease;
 }
 
+.nav-link:focus-visible {
+  outline: 0;
+  box-shadow: none;
+}
 #servicesTab .service-tab-btn i {
   color: inherit;
 }
@@ -1022,6 +1026,9 @@ body {
 .newsletter-check:checked {
   background-color: #7c3aed;
   border-color: #7c3aed;
+}
+.form-check-input:focus {
+  outline: none;
   box-shadow: none;
 }
 .btn-custom {
